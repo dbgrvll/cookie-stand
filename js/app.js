@@ -6,30 +6,60 @@
 
 "use strict";
 
-var person1 = {
-    name: 'Thomas',
-    isStudent: true,
-    favoriteMovies: ['the princess bride', 'monte python and the holy grail', 'the bourne identity'],
-    run: function() {
-      console.log( this.name + ' is running.' );
-    },
-    walk: function() {
-      console.log( this.name + ' is walking');
-    }
+// 
+
+var store1 = {
+    name: 'Seattle',
+    min: 
+    max: 
+    avg:
+    
+  }
+
+  var store2 = {
+    name: 'Tokyo',
+    min: 
+    max: 
+    avg:
+    
+  }
+
+  var store3 = {
+    name: 'Dubai',
+    min: 
+    max: 
+    avg:
+    
+  }
+
+  var store4 = {
+    name: 'Paris',
+    min: 
+    max: 
+    avg:
+    
+  }
+
+  var store5 = {
+    name: 'Lima',
+    min: 
+    max: 
+    avg:
+    
   }
   
-  var person2 = {
-    name: 'Grace Hopper',
-    age: 85,
-    computerScientist: ['Vassar College', 'Yale University'],
-    walk: function() {
-      console.log( this.name + ' is walking' );
-      //the below log uses a template literal
-      console.log( `${this.name} is walking` );
-    }
-  }
+//   var person2 = {
+//     name: 'Grace Hopper',
+//     age: 85,
+//     computerScientist: ['Vassar College', 'Yale University'],
+//     walk: function() {
+//       console.log( this.name + ' is walking' );
+//       //the below log uses a template literal
+//       console.log( `${this.name} is walking` );
+//     }
+//   }
   
-  person2.serviceBranch = 'United States Navy'
+//   person2.serviceBranch = 'United States Navy'
   // console.log(person2);
   
   
@@ -39,14 +69,14 @@ var person1 = {
   // person1.walk();
   // person2.walk();
   
-  var car = {
-    wheels: 4,
-    doors: 2,
-    trunk: false,
-    drive: function() {
-      console.log('Vrroooommm!!!!');
-    }
-  }
+//   var car = {
+//     wheels: 4,
+//     doors: 2,
+//     trunk: false,
+//     drive: function() {
+//       console.log('Vrroooommm!!!!');
+//     }
+//   }
   // console.log(person1.favoriteMovies[2]);
   // console.log('person1.name: ', person1.name);
   // console.log('person1.isStudent: ', person1.isStudent);

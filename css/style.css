@@ -1,0 +1,37 @@
+
+body {
+    
+
+background-color: whitesmoke;
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+data {
+
+
+}
+
+
+ #fixed-width-salmon {  width: 25%; }  
+
+
+
+
+/* <style>
+body { background-color:blue; }
+.highlightme { background-color:#FFFF00; }
+p { background-color:#FFFFFF; }
+</style> */
